@@ -1,7 +1,6 @@
 <!--v-bind:style="{height: image.height + 'px'}"-->
 <template v-bind="image">
   <div>
-
     <img
         v-bind:src="`https://placeimg.com/${image.width*2}/${image.height*2}/any`"
         class="drawing card"
